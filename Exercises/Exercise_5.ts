@@ -46,30 +46,30 @@ const mulpbutton = document.getElementById("mult") as HTMLButtonElement
 const printAnswer = document.getElementById("results") as HTMLOutputElement
 
 function addition(){
-    let num1 = parseFloat(number_1.value);
-    let num2 = parseFloat(number_2.value);
-    let results = num1 + num2;
+    let anum1 = parseFloat(number_1.value);
+    let anum2 = parseFloat(number_2.value);
+    let results = anum1 + anum2;
     printAnswer.textContent = results.toString();
 }
 addbutton.addEventListener("click", addition)
 function sub(){
-    let num1 = parseFloat(number_1.value);
-    let num2 = parseFloat(number_2.value);
-    let results = num1 + num2;
+    let snum1 = parseFloat(number_1.value);
+    let snum2 = parseFloat(number_2.value);
+    let results = snum1 - snum2;
     printAnswer.textContent = results.toString();
 }
 addbutton.addEventListener("click", sub)
 function div(){
-    let num1 = parseFloat(number_1.value);
-    let num2 = parseFloat(number_2.value);
-    let results = num1 + num2;
+    let dnum1 = parseFloat(number_1.value);
+    let dnum2 = parseFloat(number_2.value);
+    let results = dnum1 / dnum2;
     printAnswer.textContent = results.toString();
 }
 addbutton.addEventListener("click", div)
 function multiply(){
-    let num1 = parseFloat(number_1.value);
-    let num2 = parseFloat(number_2.value);
-    let results = num1 + num2;
+    let mnum1 = parseFloat(number_1.value);
+    let mnum2 = parseFloat(number_2.value);
+    let results = mnum1 * mnum2;
     printAnswer.textContent = results.toString();
 }
 addbutton.addEventListener("click", multiply)
